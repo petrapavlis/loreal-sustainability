@@ -1,0 +1,197 @@
+/*
+Bootstrap 4 breakpointy: 576px, 768px, 992px, 1200px
+xs: (max-width: 575px)
+sm: (min-width: 576px) and (max-width: 767px)
+md: (min-width: 768px) and (max-width: 991px)
+lg: (min-width: 992px) and (max-width: 1199px)
+xl: (min-width: 1200px)
+
+font-family: 'Playfair Display', serif;
+font-family: 'Raleway', sans-serif;
+
+Barvy
+světle šedá: #f0f0f0;
+béžová: #979482
+pillar-1: #155278;
+pillar-2: #35B4AF;
+pillar-3: #00995B;
+number-1: #415B8F;
+number-2: #796FA5;
+number-3: #66ACAE;
+number-4: #B27AB4;
+number-5: #979482;
+*/
+
+html {
+  box-sizing: border-box;
+}
+*,
+*:after,
+*:before {
+  box-sizing: inherit;
+}
+
+body {
+  max-width: 1600px;
+  margin: auto;
+  font-family: "Raleway", sans-serif;
+}
+
+/* Header */
+.header {
+  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+    url(../images/croatia.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top left;
+  height: 75vh;
+  background-color: #0c2357;
+  color: white;
+  position: relative;
+}
+
+/* Logo */
+.logo {
+  display: block;
+  margin: auto;
+  padding-top: 30px;
+}
+
+/* Pismo */
+h1,
+h3 {
+  font-family: "Playfair Display", serif;
+  letter-spacing: 0.1rem;
+}
+
+h1 {
+  font-size: 3.5rem;
+  position: absolute;
+  bottom: 10vh;
+}
+
+h2 {
+  font-size: 2rem;
+  font-weight: bold;
+  padding-bottom: 30px;
+}
+
+h3 {
+  font-size: 1.2rem;
+  font-weight: bold;
+  letter-spacing: 0.1rem;
+}
+
+/* Sekce */
+.sekce {
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+.gray {
+  background-color: #f0f0f0;
+}
+
+img {
+  padding-bottom: 20px;
+  display: block;
+  margin: auto;
+}
+
+.number {
+  font-size: 6rem;
+  margin-top: -30px;
+  margin-bottom: -5px;
+}
+
+.highlighter {
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.pillar-1 {
+  color: #155278;
+}
+
+.pillar-2 {
+  color: #35b4af;
+}
+
+.pillar-3 {
+  color: #00995b;
+}
+
+.figure {
+  font-size: 6rem;
+  font-weight: bold;
+  margin-top: -20px;
+  margin-bottom: -5px;
+}
+
+.figure-1 {
+  color: #415b8f;
+}
+
+.figure-2 {
+  color: #796fa5;
+}
+
+.figure-3 {
+  color: #66acae;
+}
+
+.figure-4 {
+  color: #b27ab4;
+}
+
+.figure-5 {
+  color: #00995b;
+}
+
+a {
+  color: #00995b;
+  text-decoration: underline;
+}
+
+a:hover {
+  color: #008851;
+}
+
+.pillar-1a {
+  color: #155278;
+  font-weight: bold;
+}
+
+.pillar-1a:hover {
+  color: #12486a;
+}
+
+button {
+  padding: 10px 30px;
+  background-color: #00995b;
+  border: none;
+  border-radius: 25px;
+  box-shadow: 0 1px 6px 0 rgba(32, 33, 36, 0.28);
+}
+
+button:hover {
+  background-color: #008851;
+}
+
+.button-link,
+.button-link:hover {
+  color: white;
+  text-decoration: none;
+  letter-spacing: 0.1rem;
+}
+
+.button-center {
+  display: block;
+  margin: auto;
+}
+
+@media only screen and (max-width: 370px) {
+  h1 {
+    font-size: 3rem;
+  }
+}
