@@ -43,8 +43,8 @@ body {
     url(../images/croatia.jpg);
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: top left;
-  height: 75vh;
+  background-position: center center;
+  height: 40vh;
   background-color: #0c2357;
   color: white;
   position: relative;
